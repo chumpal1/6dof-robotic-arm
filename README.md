@@ -98,3 +98,35 @@ Raspberry Pi 4 (high-level brain)
         |
         v
 Arduino Mega (low-level)
+        |
+        |- 6x TMC2209 drivers -> 6x NEMA 17 steppers (J1-J6)
+```
+
+---
+
+## Gallery
+
+| Full assembly (Fusion 360) | Base, top view | Arm link detail |
+|:---:|:---:|:---:|
+| <img src="images/full-assembly-front.png" width="260"> | <img src="images/base-top-view.png" width="260"> | <img src="images/arm-link-detail.png" width="200"> |
+
+---
+
+## Repository Structure
+
+```
+6dof-robotic-arm/
+├── README.md              Project overview (this file)
+├── docs/
+│   └── build-stages.md    Per-stage print settings, parts lists, post-print checklists
+├── images/                CAD renders
+└── LICENSE                MIT
+```
+
+Planned additions as the build progresses: `cad/` (STEP/STL exports), `firmware/` (Arduino motor control), and `ros2_ws/` (ROS2 + MoveIt2 packages).
+
+---
+
+## License
+
+MIT. See [LICENSE](LICENSE).
