@@ -100,5 +100,3 @@ The shoulder uses a **side-mount** configuration rather than end-mount:
 |------|-------------|--------|-----|
 | M3 Brass Heat-Set Inserts | 94180A331 | McMaster-Carr | 4 |
 | M3 × 8mm Socket Head Cap Screws | 91290A115 | McMaster-Carr | 4 |
-| 608-2RS Sealed Ball Bearing | 5972K501 | McMaster-Carr | 1 |
-| NEMA 17 Stepper Motor | — | Amazon | 1 |
